@@ -1,0 +1,37 @@
+/* assets/styles.css */
+
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: 3rem;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul.users {
+  margin: 0;
+  padding: 0;
+}
+ul.users li {
+  display: block;
+  margin-bottom: 1rem;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}

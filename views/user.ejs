@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | <%= data.name %></title>
+  <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Welcome | <%= data.name %> </h1>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <div class="container">
+    <h2>User details</h2>
+    <p><strong>Age: </strong><%= data.age || "N/A" %> </p>
+    <p><strong>Email: </strong><%= data.email || "N/A" %> </p>
+    <p><a href="/">&LessLess; Back</a></p>
+  </div>
+</body>
+</html>
